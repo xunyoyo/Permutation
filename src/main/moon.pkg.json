@@ -1,0 +1,8 @@
+{
+    "is-main": true,
+    "import": [
+      "xunyoyo/Permutation/lib/is_permutation",
+      "xunyoyo/Permutation/lib/next_permutation",
+      "xunyoyo/Permutation/lib/prev_permutation"
+    ]
+}
