@@ -31,9 +31,9 @@ fn count[T : Compare](arr : Array[T], start : Int, end : Int, value : T) -> Int 
 pub fn is_permutation[T : Compare](
   arr1 : Array[T],
   arr2 : Array[T],
-  ~start1 : Int = 0,
-  ~end1 : Int = arr1.length(),
-  ~start2 : Int = 0
+  start1~ : Int = 0,
+  end1~ : Int = arr1.length(),
+  start2~ : Int = 0
 ) -> Bool {
   let mut first1 = start1
   let mut first2 = start2
